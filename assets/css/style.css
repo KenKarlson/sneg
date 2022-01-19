@@ -432,6 +432,7 @@ body {
           font-feature-settings: 'pnum' on, 'lnum' on;
   text-decoration: none;
   list-style: none;
+  color: #6b6b6b;
 }
 
 .header-social {
@@ -453,5 +454,9 @@ body {
           border-radius: 50%;
   background-color: #0586E8;
   cursor: pointer;
+}
+
+.header-phone:hover {
+  background-color: #be0ba6;
 }
 /*# sourceMappingURL=style.css.map */
