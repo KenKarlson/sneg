@@ -1,62 +1,360 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Механизированная уборка и вывоз снега в Москве</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Механизированная уборка и вывоз снега в Москве</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
 </head>
+
 <body>
-  <header class="header">
-    <div class="header-container">
-      <div class="header-logo">
-        <img src="./assets/img/Icemen.png" alt="Logo: image" width="47px">
-      </div>
-      
-      <div class="header-text">
-        <h1 class="header-text__title">СНЕГОВИК</h1>
-        <h3 class="header-text__subtitle">Механизированная уборка и вывоз снега</h3>
-      </div>
-      <!-- /.header-text -->
-      <div class="header-social">
-        <a href="#" class="header-social__item">
-          <img src="./assets/img/telega.svg" alt="Icon: telegram" class="header-social__link">
-        </a>
-        <a href="#" class="header-social__item">
-          <img src="./assets/img/vk.svg" alt="Icon: vk" class="header-social__link">
-        </a>
-        <a href="#" class="header-social__item">
-          <img src="./assets/img/ig.svg" alt="Icon: instagram" class="header-social__link">
-        </a>
-        
-        
-        
-      </div>
-      <!-- /.header-social -->
-      <button class="header-phone" title="Заказать звонок">
-        <img src="./assets/img/phone.svg" alt="Icon: phone" width="16px">
+    <!--Header-->
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-logo">
+                <a href="/">
+                    <img src="./assets/img/Icemen.png" alt="Logo: image" width="47px" />
+                </a>
+            </div>
+            <!-- /.header-logo -->
+            <div class="header-text">
+                <h1 class="header-text__title">СНЕГОВИК</h1>
+                <h3 class="header-text__subtitle">Механизированная уборка и вывоз снега</h3>
+            </div>
+            <!-- /.header-text -->
+
+            <button class="header-phone" title="Заказать звонок">
+        <img src="./assets/img/phone.svg" alt="Icon: phone" width="16px" />
       </button>
-      <!-- /.header-phone -->
-      
-      <div class="header-text">
-        <div class="header-text__phone">8 (800) 999 59 11</div>
-        <a href="#" class="header-text__order" title="Заказать звонок">заказать звонок</a>
-      </div>
-      <!-- /.header-text -->
-    </div>
-    <!-- /.container -->
-  </header>
-  <!-- /.header -->
+            <!-- /.header-phone -->
+            <div class="header-text">
+                <div class="header-text__phone">8 (800) 999 59 11</div>
+                <a href="#" class="header-text__order" title="Заказать звонок">заказать звонок</a>
+            </div>
+            <!-- /.header-text -->
+
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /.header -->
+
+    <!--Display-->
+    <section class="display">
+        <div class="display-image">
+            <img src="./assets/img/Traktor.png" alt="" />
+        </div>
+        <div class="container display-container">
+            <h3 class="display__title">
+                Механизированная уборка и вывоз снега в Москве и МО
+                <span class="">от 240 руб/м3</span>
+            </h3>
+            <div class="line"></div>
+            <p class="display__subtitle">
+                Наш менеджер подберет необходимую спецтехнику для уборки снега
+                <span>на Ваш объект за 10 минут </span>
+            </p>
+            <div class="display-box">
+                <div class="display-box-one">
+                    <div class="display-box__card">
+                        <div class="display-box__image">
+                            <img src="./assets/img/bulldozer.png" alt="" />
+                        </div>
+                        <div>
+                            <p>Уборка и вывоз снега 24/7</p>
+                        </div>
+                    </div>
+                    <div class="display-box__card">
+                        <div class="display-box__image">
+                            <img src="./assets/img/snowing.png" alt="" />
+                        </div>
+                        <div>
+                            <p>Поставка спецтехники по первому звонку или с первым снегом</p>
+                        </div>
+                    </div>
+
+                    <div class="display-box__card">
+                        <div class="display-box__image">
+                            <img src="./assets/img/documents.png" alt="" />
+                        </div>
+                        <div>
+                            <p>Бронируем технику за Вашим объектом по договору</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.display-box-one -->
+                <div class="display-box-two">
+                    <div class="display-box-two-card">
+                        <div class="display-form">
+                            <div class="display-form-check">
+                                <h2 class="display-form-check__title">Получите <span>скидку 15%</span></h2>
+                                <h3 class="display-form-check__subtitle">
+                                    на абонентское обслуживание
+                                </h3>
+
+                                <div class="display-form-checkbox">
+                                    <div class="display-form-checkbox__ceck">
+                                        <input type="checkbox" name="check" id="check" checked />
+                                        <label for="check"></label>
+                                    </div>
+                                    <span class="display-form-checkbox__title">
+                    Я согласен(а) с условиями передачи информации
+                  </span>
+                                </div>
+
+                            </div>
+                            <!-- /.display-form-chek -->
+                            <div class="display-form-button">
+                                <input type="phone" name="phone" id="phone" placeholder="номер телефона" class="display-form-button__input" />
+                                <button class="display-form-button__btn">Получить скидку</button>
+                            </div>
+                            <!-- /.display-form-button -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.display-box-two -->
+
+            </div>
+            <!-- /.display-box -->
 
 
-  <footer class="footer">
+            <!-- /.display-form -->
 
 
-  </footer>
-  
+        </div>
+        <!-- /.container display-container -->
+    </section>
+    <!-- /.display -->
+    <!--Lines-->
+    <section class="lines">
+    </section>
+    <!-- /.lines -->
+    <!--Slider-->
+    <section class="slider">
+        <div class="container slider-container">
+            <div class="slider-box-one">
+                <h3 class="slider__text">Наши работы:</h3>
+                <span class="line"></span>
+                <div class="slider-box">
+                    <div class="slider-box-one">
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="wraper-box swiper-wrapper ">
+                                <!-- Slides -->
+                                <div class="swiper-slide swiper-slide-img"><img src="./assets/img/slider/sneg_1.png">
+                                </div>
+                                <div class="swiper-slide swiper-slide-img"><img src="./assets/img/slider/sneg_2.png">
+                                </div>
+                                <div class="swiper-slide swiper-slide-img"><img src="./assets/img/slider/sneg_3.png">
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+
+                        </div>
+                    </div>
+                    <div class="slider-box-two"></div>
+                </div>
+                <!-- /.slider-box -->
+            </div>
+            <div class="slide-box-two">
+                <h3 class="slider__text">Контакты:</h3>
+                <span class="line"></span>
+                <div class="contact-box">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="wraper-box swiper-wrapper ">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <h3>119433 г. Москва ул. Центральная д.7</h3>
+                                <p>тел. +7906 322 223 322</p>
+                                <p>тел. +8800 999 223 322</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A964f411ea7a11ad49288acb0bf67344a47fcaa459b11258c4e287e298d7bab5c&amp;width=600&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
+                                </script>
+                            </div>
+                            <div class="swiper-slide swiper-slide-img"><img src="./assets/img/slider/sneg_3.png">
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.slider -->
+    <!--Lines-->
+    <section class="lines">
+    </section>
+    <!-- /.lines -->
+    <!--Offer-->
+    <section class="offer">
+        <div class="container offer-container">
+            <h3 class="offer__text">Для кого мы работаем:</h3>
+            <span class="line"></span>
+
+            <div class="offer-box">
+                <div class="offer-box__card">
+                    <img src="./assets/img/check_1.svg" alt="" />
+                    <h3>Торговые комплексы</h3>
+                </div>
+                <div class="offer-box__card">
+                    <img src="./assets/img/check_1.svg" alt="" srcset="" />
+                    <h3>Гипермаркеты, супермаркеты</h3>
+                </div>
+                <div class="offer-box__card">
+                    <img src="./assets/img/check_1.svg" alt="" srcset="" />
+                    <h3>Склады</h3>
+                </div>
+                <div class="offer-box__card">
+                    <img src="./assets/img/check_1.svg" alt="" srcset="" />
+                    <h3>Заводы</h3>
+                </div>
+                <div class="offer-box__card">
+                    <img src="./assets/img/check_1.svg" alt="" srcset="" />
+                    <h3>Жилые комплексы</h3>
+                </div>
+            </div>
+        </div>
+        <!-- /.offer-container -->
+    </section>
+    <!-- /.offer -->
+    <!--Line-->
+    <section class="lines">
+    </section>
+    <!-- /.line -->
+
+    <!--Prices-->
+    <section class="prices">
+        <div class="container prices-contaiter">
+            <h1 class="prices__title">Стоимость вывоза снега:</h1>
+            <div class="line"></div>
+            <div class="prices-box">
+                <div class="prices-box__card">
+                    <table style="width: 75vw;">
+                        <tr class="tabhead">
+                            <td style="padding: 10px 0 10px;">Условия</td>
+                            <td>до 100 м3</td>
+                            <td>от 100 м3</td>
+                            <td>от 200 м3</td>
+                            <td>от 300 м3</td>
+                        </tr>
+                        <tr class="tabhead-tr">
+                            <td style="padding: 10px 0 10px;">Без погрузки</td>
+                            <td>250 Р</td>
+                            <td>240 Р</td>
+                            <td>220 Р</td>
+                            <td>200 Р</td>
+                        </tr>
+                        <tr class="tabhead-tr">
+                            <td style="padding: 10px 0 10px;">С погрузкой</td>
+                            <td>420 Р</td>
+                            <td>360 Р</td>
+                            <td>290 Р</td>
+                            <td>240 Р</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="prices-button">Заказать</button>
+            </div>
+            <!-- /.prices-box -->
+
+
+
+        </div>
+        <!-- /.prices-button -->
+        </div>
+        <!-- /.prices-contaiter -->
+    </section>
+    <!-- /.prices -->
+
+    <!--Tehniks-->
+    <section class="tehniks">
+        <div class="container tehniks-container">
+
+            <h1 class="tehniks__title">Спецтехника для вывоза снега:</h1>
+            <div class="line"></div>
+
+            <div class="tehniks-box">
+                <div class="tehniks-box__card"><img src="./assets/img/image-4.png" alt="">
+                    <span class="tehniks-box__title">Колесноый экскаватор</span>
+                    <span class="tehniks-box__subtitle">JCB JS 175W</span>
+                    <span class="tehniks-box__price">от 14 000 Р</span>
+                </div>
+                <div class="tehniks-box__card"><img src="./assets/img/image-2.png" alt="">
+                    <span class="tehniks-box__title">Колесноый погрузчик</span>
+                    <span class="tehniks-box__subtitle">Hyundai HL 740W</span>
+                    <span class="tehniks-box__price">от 12 000 Р</span>
+                </div>
+                <div class="tehniks-box__card"><img src="./assets/img/image-3.png" alt="">
+                    <span class="tehniks-box__title">Экскаватор погрузчик</span>
+                    <span class="tehniks-box__subtitle">JCB 3CX SUPER</span>
+                    <span class="tehniks-box__price">от 8000 Р</span>
+                </div>
+                <div class="tehniks-box__card"><img src="./assets/img/image-1.png" alt="">
+                    <span class="tehniks-box__title">Самосвал</span>
+                    <span class="tehniks-box__subtitle">JCB WC 12CЕT</span>
+                    <span class="tehniks-box__price">от 9000 Р</span>
+                </div>
+                <div class="tehniks-box__card"><img src="./assets/img/image-5.png" alt="">
+                    <span class="tehniks-box__title">Колесноый погрузчик</span>
+                    <span class="tehniks-box__subtitle">DEERG 325SK</span>
+                    <span class="tehniks-box__price">от 5000 Р</span>
+                </div>
+            </div>
+        </div>
+        <!-- /.tehniks-container -->
+    </section>
+    <!--Lines-->
+    <section class="lines">
+    </section>
+    <!-- /.lines -->
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <a href="/"><img src="./assets/img/Icemen.png" alt="Logo: image" width="47px" /></a>
+            </div>
+            <!-- /.footer-logo -->
+            <div class="footer-text">
+                &copy; 2022
+            </div>
+            <!-- /.footer-text -->
+            <div class="footer-phone">
+                +7(800) 999 89 53
+            </div>
+            <!-- /.footer-phone -->
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/slider.js"></script>
 </body>
+
 </html>
